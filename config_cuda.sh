@@ -44,4 +44,4 @@ echo "Added cuda path to LD_LIBRARY_PATH. Reloading shell"
 source $BASHRC
 
 echo "Installing required package from requirements.txt ..."
-python --m pip install --user -r requirements.txt
+python -m pip install --user -r requirements.txt

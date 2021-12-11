@@ -144,6 +144,7 @@ def run_dqn(enable_train):
         log_interval=1000,
         test_env=env,
         movie_save=False,
+        base_dir="cartpole"
     )
     env.close()
 

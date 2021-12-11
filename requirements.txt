@@ -1,7 +1,7 @@
 tensorflow==2.1.0
 tensorflow-gpu==2.1.0
-cuda_10.1.243
-cudnn==v7.6.5.32
+#cuda==10.1.243
+#cudnn==7.6.5.32
 Keras==2.3.1
 keras-rl==0.4.2
 gym==0.17.1

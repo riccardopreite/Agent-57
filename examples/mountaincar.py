@@ -141,6 +141,7 @@ def run_dqn(enable_train):
         log_interval=1000,
         test_env=env,
         movie_save=False,
+        base_dir="mountain"
     )
     env.close()
 
@@ -198,6 +199,7 @@ def run_agent57(enable_train):
         test_env=create_env,
         is_load_weights=False,
         movie_save=False,
+        base_dir="mountain"
     )
     env.close()
 
@@ -217,10 +219,10 @@ if __name__ == '__main__':
         run_replay(episode_save_dir)
 
     # SingleActorレーニング
-    if False:
+    if True:
         run_dqn(enable_train=True)
         #run_dqn(enable_train=False)  # test only
 
     # 複数Actorレーニング
-    if True:
+    if False:
         run_agent57(enable_train=True)
