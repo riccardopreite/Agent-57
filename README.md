@@ -1,4 +1,4 @@
-# Agemt57(Deep Reinforcement Learning) for Keras-RL
+# Agent57(Deep Reinforcement Learning) for Keras-RL
 Please use python 3.7.5 and cuda 10.1.
 
 To install cuda and pip package:
