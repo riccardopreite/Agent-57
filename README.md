@@ -3,7 +3,7 @@ Please use python 3.7.5 and cuda 10.1.
 
 To install cuda and pip package:
 
-sudo chmod +x config_cuda.sh
+sudo chmod +x config_cuda.sh\n
 sudo ./config_cuda.sh
 
 
