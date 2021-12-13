@@ -37,7 +37,7 @@ def run_gym_dqn(
     ):
 
     os.makedirs(base_dir, exist_ok=True)
-    weight_file = os.path.join(base_dir, "{}_weight.h5".format(env_name))
+    weight_file = os.path.join(base_dir, "{}_weightMAX.h5".format(env_name))
     print("nb_steps: {}".format(nb_steps))
     print("nb_time : {:.2f}m".format(nb_time/60))
 

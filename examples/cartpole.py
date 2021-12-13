@@ -224,8 +224,8 @@ if __name__ == '__main__':
 
     # SingleActorレーニング
     if True:
-        run_dqn(enable_train=True)
-        #run_dqn(enable_train=False)  # test only
+        # run_dqn(enable_train=True)
+        run_dqn(enable_train=False)  # test only
 
     # 複数Actorレーニング
     if False:
