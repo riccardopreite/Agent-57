@@ -1,3 +1,7 @@
+# Original repo
+https://github.com/pocokhc/agent57
+
+
 # Agent57(Deep Reinforcement Learning) for Keras-RL
 Please use python 3.7.5 and cuda 10.1.
 
